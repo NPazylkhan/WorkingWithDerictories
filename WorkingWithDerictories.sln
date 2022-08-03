@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithDerictories", "WorkingWithDerictories\WorkingWithDerictories.csproj", "{88C12365-69C4-4D81-ACD4-D3555EEA749B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithDirectoriesNetFramework", "WorkingWithDirectoriesNetFramework\WorkingWithDirectoriesNetFramework.csproj", "{029B8259-ED0A-4820-B2CC-C5444569BC9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{88C12365-69C4-4D81-ACD4-D3555EEA749B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88C12365-69C4-4D81-ACD4-D3555EEA749B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88C12365-69C4-4D81-ACD4-D3555EEA749B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029B8259-ED0A-4820-B2CC-C5444569BC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029B8259-ED0A-4820-B2CC-C5444569BC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029B8259-ED0A-4820-B2CC-C5444569BC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029B8259-ED0A-4820-B2CC-C5444569BC9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
