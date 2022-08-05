@@ -26,8 +26,6 @@ namespace WindowsFormsApp
 
             if (directory.Exists)
             {
-                Console.WriteLine("Directory:");
-
                 DirectoryInfo[] dirs = directory.GetDirectories(); 
                 foreach (DirectoryInfo dir in dirs) 
                 {
@@ -46,8 +44,6 @@ namespace WindowsFormsApp
 
             if (directory.Exists)
             {
-                Console.WriteLine("Directory:");
-
                 DirectoryInfo[] dirs = directory.GetDirectories();
                 foreach (DirectoryInfo dir in dirs)
                 {
