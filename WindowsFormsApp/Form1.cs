@@ -20,16 +20,16 @@ namespace WindowsFormsApp
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string dirName = @"C:\Temp\"; // Any path with folders
+            string dirName = @"C:\Temp\";
 
-            var directory = new DirectoryInfo(dirName); // Gets info about given path of folder
+            var directory = new DirectoryInfo(dirName); 
 
-            if (directory.Exists) // Checks directory exists 
+            if (directory.Exists)
             {
                 Console.WriteLine("Directory:");
 
-                DirectoryInfo[] dirs = directory.GetDirectories(); // Gets all directories of given path
-                foreach (DirectoryInfo dir in dirs) // Сycles through all directories
+                DirectoryInfo[] dirs = directory.GetDirectories(); 
+                foreach (DirectoryInfo dir in dirs) 
                 {
                     comboBox1.Items.Add(dir.Name);
                 }
